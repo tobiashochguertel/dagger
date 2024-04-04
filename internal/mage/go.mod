@@ -3,8 +3,8 @@ module github.com/dagger/dagger/internal/mage
 go 1.21
 
 require (
-	dagger.io/dagger v0.10.3
-	github.com/dagger/dagger v0.10.3
+	dagger.io/dagger v0.11.0
+	github.com/dagger/dagger v0.11.0
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/hexops/gotextdiff v1.0.3
 	github.com/magefile/mage v1.15.0
@@ -19,12 +19,17 @@ require (
 	github.com/99designs/gqlgen v0.17.41 // indirect
 	github.com/Khan/genqlient v0.6.0 // indirect
 	github.com/adrg/xdg v0.4.0 // indirect
+	github.com/go-logr/logr v1.4.1 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sosodev/duration v1.1.0 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.10 // indirect
+	go.opentelemetry.io/otel v1.24.0 // indirect
+	go.opentelemetry.io/otel/metric v1.24.0 // indirect
+	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 )
 
